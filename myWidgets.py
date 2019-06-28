@@ -120,7 +120,7 @@ class cl_statusBar_frame( tk.Frame ) :
     self.label.pack( fill = tk.X )
 
   def set( self, formatStr, *args ) :
-    self.label.config( text = 'chs8824: ' + ( formatStr % args ) )
+    self.label.config( text = 'Chirag Shah: ' + ( formatStr % args ) )
     self.label.update_idletasks()
 
   def clear( self ) :
